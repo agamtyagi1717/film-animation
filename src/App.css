@@ -1,38 +1,69 @@
+body {
+  background-color: black;
+  margin: 0; /* Remove default body margin */
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 125px;
+  -webkit-text-stroke: 2px #fff;
+  margin: 0;
+  color: transparent;
+  letter-spacing: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.text {
+  top: 50%;
+  transform: translateY(-50%);
+  position: fixed;
+}
+
+.reel-img {
+  /* opacity: 0.5; */
+  padding-bottom: 10px;
+  width: 100%; 
+  max-width: 650px; 
+  height: auto;
+  /* transform: perspective(20px) rotateX(-1deg); */
+}
+.img-1{
+  transform: scale(1.5) perspective(20px) rotateX(-0.4deg);
+}
+.img-2{
+  margin-top: 160px;
+  transform: scale(1.29) perspective(20px) rotateX(-0.4deg);
+}
+.img-3{
+  margin-top: 75px;
+  transform: scale(1.195);
+}
+.img-4{
+  margin-top: 75px;
+  transform: scale(1.28) perspective(20px) rotateX(0.4deg);
+}
+.img-5{
+  margin-top: 140px;
+  transform: scale(1.478) perspective(20px) rotateX(0.4deg);
+}
+.img-6{
+  display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  h1 {
+    line-height: 2.5;
+    font-size: 50px;
+    letter-spacing: 10px;
   }
 }
