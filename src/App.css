@@ -26,7 +26,7 @@ h1 {
 }
 
 .reel-img {
-  /* opacity: 0.5; */
+  opacity: 0.5;
   padding-bottom: 10px;
   width: 100%; 
   max-width: 650px; 
