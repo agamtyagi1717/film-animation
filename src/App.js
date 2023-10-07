@@ -39,7 +39,7 @@ function App() {
         <motion.h1
           style={{
             color: calculateColor(0),
-            transition: "color 0.3s ease-in-out",
+            transition: "color 0.s ease-in-out",
           }}
         >
           WEBSITES
@@ -47,7 +47,7 @@ function App() {
         <motion.h1
           style={{
             color: calculateColor(1),
-            transition: "color 0.3s ease-in-out",
+            transition: "color 0.s ease-in-out",
           }}
         >
           BRANDING
@@ -55,7 +55,7 @@ function App() {
         <motion.h1
           style={{
             color: calculateColor(2),
-            transition: "color 0.3s ease-in-out",
+            transition: "color 0.s ease-in-out",
           }}
         >
           PRODUCT
@@ -63,7 +63,7 @@ function App() {
         <motion.h1
           style={{
             color: calculateColor(3),
-            transition: "color 0.3s ease-in-out",
+            transition: "color 0.s ease-in-out",
           }}
         >
           CONTENT

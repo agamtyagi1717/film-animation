@@ -1,6 +1,7 @@
 body {
   background-color: black;
   margin: 0; /* Remove default body margin */
+  overflow-x: hidden;
 }
 
 .App {
@@ -25,15 +26,18 @@ h1 {
   position: fixed;
 }
 
+
 .reel-img {
   opacity: 0.5;
   padding-bottom: 10px;
   width: 100%; 
   max-width: 650px; 
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   /* transform: perspective(20px) rotateX(-1deg); */
 }
-.img-1{
+
+/* .img-1{
   transform: scale(1.5) perspective(20px) rotateX(-0.4deg);
 }
 .img-2{
@@ -54,7 +58,7 @@ h1 {
 }
 .img-6{
   display: none;
-}
+} */
 
 
 
