@@ -7,7 +7,7 @@ import image5 from "../assets/image5.jpg";
 import image6 from "../assets/image6.jpg";
 
 const FilmReel = () => {
-  const [scaleFactors, setScaleFactors] = useState([1, 1, 1, 1, 1, 1]);
+  const [scaleFactors, setScaleFactors] = useState([1.2, 1.2, 1.2, 1.2, 1.2, 1.2]);
 
   const updateScales = () => {
     const viewportHeight = window.innerHeight;
